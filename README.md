@@ -1,2 +1,2 @@
-# GCC-Landing-Page-Theme
-Theme used for Germanna campaign landing pages
+# GCC New Year Campaign
+Theme used for Germannas New Year New You campaign
