@@ -4,12 +4,15 @@ get_header(); ?>
      <div class="spring-box" id="content">
     
         <div class="container spring-hero">
+          
           <div class="row">
-              <div class="col-md-5">
+            
+            <div class="col-md-5">
               
                 
                 
             </div>
+
             <div class="col-md-7">
                 
                 <div class="header"><h1><?php the_field( 'row_1_heading' );  ?></h1></div>
@@ -66,42 +69,11 @@ get_header(); ?>
             
         </div>
         
-        <div class="spring-save">
-    
-        <div class="container spring-hero">
-          <div class="row">
-              
-            <div class="col-md-7">
-                
-                <div class="header"><h1><?php the_field( 'row_2_heading' ); ?></h1></div>
-                
-                <div class="spring-form">
-                    
-                    <h3><?php the_field( 'row_2_subheading' ); ?></h3>
-                    
-                    <h2><?php the_field( 'row_2_lead' ); ?></h2>
-                    
-                    <p><?php the_field('row_2_text') ?></p>
-                              
-                </div>
-              
-            </div>
-              
-              <div class="col-md-5">
-              
-                
-                
-            </div>
-            
-          </div>
-        </div>
-            
-        </div>
-        
         <div class="spring-skill">
     
         <div class="container spring-hero">
-          <div class="row">
+         
+         <div class="row">
               
            
               
@@ -132,13 +104,45 @@ get_header(); ?>
         </div>
             
         </div>
+
+          <div class="spring-save">
+    
+        <div class="container spring-hero">
+
+          <div class="row">
+              
+            <div class="col-md-7">
+                
+                <div class="header"><h1><?php the_field( 'row_2_heading' ); ?></h1></div>
+                
+                <div class="spring-form">
+                    
+                    <h3><?php the_field( 'row_2_subheading' ); ?></h3>
+                    
+                    <h2><?php the_field( 'row_2_lead' ); ?></h2>
+                    
+                    <p><?php the_field('row_2_text') ?></p>
+                              
+                </div>
+              
+            </div>
+              
+              <div class="col-md-5">
+              
+                
+                
+            </div>
+            
+          </div>
+        </div>
+            
+        </div>
         
         <div class="spring-learn">
     
         <div class="container spring-hero">
           <div class="row">
               
-           
               <div class="col-md-7">
                 
                 <div class="header"><h1><?php the_field( 'row_4_heading' ); ?></h1></div>
@@ -181,11 +185,13 @@ get_header(); ?>
                 <div class="spring-form">
                     <h2><?php the_field( 'row_5_left_column_lead' ); ?></h2>
 <div class="row">  
-    <div class="col-sm-12 col-md-6">
+    <div class="col-sm-12 col-md-12 col-lg-6">
 
         <p><?php the_field( 'row_5_left_column_text' ); ?></p>
     </div>
-        <div class="col-sm-12 col-md-6">
+    
+    <div class="col-sm-12 col-md-12 col-lg-6">
+
  <p><?php the_field( 'row_5_left_column_subheading' ); ?></p>
 
 <?php the_field( 'row_5_left_column_class_start_dates' ); ?>
