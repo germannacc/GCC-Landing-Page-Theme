@@ -37,7 +37,7 @@ gulp.task("minifyScripts", ["concatScripts"], function() {
 });
 
 gulp.task('compileSass', function() {
-  return gulp.src("assets/css/style.scss")
+  return gulp.src("assets/css/styleV2.scss")
     .pipe(maps.init())
     .pipe(sass().on('error', sass.logError))
     .pipe(autoprefixer())
@@ -47,9 +47,9 @@ gulp.task('compileSass', function() {
 });
 
 gulp.task("minifyCss", ["compileSass"], function() {
-  return gulp.src("assets/css/style.css")
+  return gulp.src("assets/css/styleV2.css")
     .pipe(cssmin())
-    .pipe(rename('style.min.css'))
+    .pipe(rename('styleV2.min.css'))
     .pipe(gulp.dest('dist/assets/css'));
 });
 
@@ -59,14 +59,14 @@ gulp.task('watchFiles', function() {
 })
 
 gulp.task('clean', function() {
-  del(['dist', 'assets/css/style.css*', 'assets/js/main*.js*']);
+  del(['dist', 'assets/css/styleV2.css*', 'assets/js/main*.js*']);
 });
 
 gulp.task('renameSources', function() {
   return gulp.src(['*.html', '**/*.php', '!dist', '!dist/**'])
     .pipe(htmlreplace({
       'js': 'assets/js/main.min.js',
-      'css': 'assets/css/style.min.css'
+      'css': 'assets/css/styleV2.min.css'
     }))
     .pipe(gulp.dest('dist/'));
 });
