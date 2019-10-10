@@ -1,176 +1,215 @@
  body,html {
                 font-family: 'Oswald', sans-serif;
-            }
-            
-
+}
+           
 .header {
-padding:42px;
-background-color:#8a1137;
-color:#fff;
+	padding:42px;
+	background-color:#8a1137;
+	color:#fff;
 }
 
 .header h1 {
-font-family:'Oswald', sans-serif;
-text-transform:uppercase;
-color:#fff;
-font-size:3em;
-font-weight:bold;
-line-height:0.90em;
+	font-family:'Oswald', sans-serif;
+	text-transform:uppercase;
+	color:#fff;
+	font-size:3em;
+	font-weight:bold;
+	line-height:0.90em;
 
+	// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
 
-// Medium devices (tablets, 768px and up)
-@media (min-width: 768px) { 
-
-font-size:3.5em;
-
-}
-
-@media (min-width: 992px) { 
-
-font-size:5em;
+font-size:2em;
 
 }
+
+		// Medium devices (tablets, 768px and up)
+		@media (min-width: 768px) { 
+
+		font-size:3.5em;
+
+		}
+
+		@media (min-width: 992px) { 
+
+		font-size:4em;
+
+		}
 
 }
 
 .spring-box {
-
-background-image:url(../img/hero.jpg);
-background-repeat:no-repeat;
-background-size: cover;
-background-position: left;
-min-height:90vh;
-margin-bottom:42px;
+	background-image:url(../img/hero.jpg);
+	background-repeat:no-repeat;
+	background-size: cover;
+	background-position: left;
+	min-height:90vh;
+	margin-bottom:42px;
 }
 
 .spring-save {
-
-background-image:url(../img/spring-save.jpg);
-background-repeat:no-repeat;
-background-size: cover;
-background-position: center;
-min-height:90vh;
-margin-bottom:42px;
+	background-image:url(../img/spring-save.jpg);
+	background-repeat:no-repeat;
+	background-size: cover;
+	background-position: center;
+	min-height:90vh;
+	margin-bottom:42px;
 }
 
 .spring-skill {
-
-background-image:url(../img/spring-skill.jpg);
-background-repeat:no-repeat;
-background-size: cover;
-background-position: center;
-min-height:90vh;
-margin-bottom:42px;
+	background-image:url(../img/spring-skill.jpg);
+	background-repeat:no-repeat;
+	background-size: cover;
+	background-position: center;
+	min-height:90vh;
+	margin-bottom:42px;
 }
 
 .spring-learn {
-
-background-image:url(../img/spring-learn.jpg);
-background-repeat:no-repeat;
-background-size: cover;
-background-position: center;
-min-height:90vh;
-margin-bottom:42px;
+	background-image:url(../img/spring-learn.jpg);
+	background-repeat:no-repeat;
+	background-size: cover;
+	background-position: center;
+	min-height:90vh;
+	margin-bottom:42px;
 }
 
 .spring-bottom {
-
-background-color:#87b8d1;
-min-height:90vh;
-padding-top:42px;
+	background-color:#87b8d1;
+	min-height:90vh;
+	padding-top:42px;
 }
 
 .spring-footer {
-padding:42px;
-background-color:#124570;
-color:#fff;
+	padding:42px;
+	background-color:#124570;
+	color:#fff;
+
+		// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+
+padding:12px;
+
+}
+
 }
 
 .spring-footer a {
-color:#fff;
-text-decoration:underline;
+	color:#fff;
+	text-decoration:underline;
 }
 
 .spring-footer a:hover {
-text-decoration:underline;
+	text-decoration:underline;
 }
 
 
 .spring-hero {
-padding-top:42px;
+	padding-top:42px;
+
+
+	
 }
 
 .spring-form {
-background-color:rgba(255,255,255,0.87);
-padding:42px;
-margin-bottom:84px;
+	background-color:rgba(255,255,255,0.87);
+	padding:42px;
+	margin-bottom:84px;
 }
 
 .spring-form p {
+	font-size: 1.2em;
 
-font-size:1.6em;
+	// Medium devices (tablets, 768px and up)
+	@media (min-width: 768px) { 
 
-// Medium devices (tablets, 768px and up)
-@media (min-width: 768px) { 
+	font-size: 1.3;
 
-font-size: 1.8;
+	}
 
-}
+	@media (min-width: 992px) { 
 
+	font-size: 1.4em;
 
-@media (min-width: 992px) { 
-
-font-size:2em;
-
-}
-
+	}
 
 }
 
 label, ul {
-font-size:1.3em;
+	
+	font-size:1em;
+
+	// Medium devices (tablets, 768px and up)
+	@media (min-width: 768px) { 
+
+	font-size:1.2em;
+
+	}
+
+	@media (min-width: 992px) { 
+	font-size:1.3em;
+
+	}
 }
 
 small {
-font-size:1.2em;
+	font-size:1em;
+
+	// Medium devices (tablets, 768px and up)
+	@media (min-width: 768px) { 
+
+	font-size:1.2em;
+	
+	}
+	@media (min-width: 992px) { 
+
+		font-size:1.2em;
+
+	}
 }
 
 h2 {
-font-size:1.8em;
-margin-bottom:42px;
+	font-size:1.4em;
+	margin-bottom:22px;
 
-// Medium devices (tablets, 768px and up)
-@media (min-width: 768px) { 
+		// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
 
-font-size:2.8em;
-
+font-size: 1.2em;
+margin-bottom:12px;
 }
 
+	// Medium devices (tablets, 768px and up)
+	@media (min-width: 768px) { 
 
-@media (min-width: 992px) { 
-font-size:3em;
+	font-size:1.4em;
+	margin-bottom:32px;
 
-}
+	}
 
+	@media (min-width: 992px) { 
+	font-size:1.8em;
+	margin-bottom:42px;
+
+	}
 }
 
 h3 {
-font-size:1em;
-margin-bottom:21px;
-text-transform:uppercase;
-color:#999;
-font-weight:bold;
+	font-size:1.2em;
+	margin-bottom:21px;
+	text-transform:uppercase;
+	color:#999;
+	font-weight:bold;
 
-// Medium devices (tablets, 768px and up)
-@media (min-width: 768px) { 
+		// Medium devices (tablets, 768px and up)
+		@media (min-width: 768px) { 
 
-font-size:1.8em;
+			font-size:1.2em;
 
-}
+		}
 
+		@media (min-width: 992px) { 
+			font-size: 1.6em;
 
-@media (min-width: 992px) { 
-font-size:2em;
-
-	}
+			}
 }
